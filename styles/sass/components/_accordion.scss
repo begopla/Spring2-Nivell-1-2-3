@@ -1,0 +1,31 @@
+.accordion-button:not(.collapsed) {
+    color: #000000;
+
+}
+.accordion-button:hover {
+    color: #fa5959;
+}
+.accordion-body {
+    color: #c5c1c1;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.more-info{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+}
+.accordion-section{
+    margin-right: 10vw;
+
+    #third-text-container{
+        width: 105%;
+        margin-left: 3vw;
+    }
+@media screen and (max-width: 575px) {
+   
+    #third-text-container{
+        width: 125%;
+        margin-left: 5vw;
+    }
+
+}}

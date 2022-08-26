@@ -1,0 +1,95 @@
+
+.footer{
+    background-color: rgb(42, 42, 75);
+    
+    justify-content: flex-start;
+    padding: 1vh;
+
+}
+
+.brand{
+    margin-left: 10vw;
+}
+.links{
+    margin-right: 40vw;
+}
+.footer-link{
+    color: white;
+    list-style: none;
+    li{
+        margin-right: 3vw;
+    }
+}
+
+.icons{
+    margin-right: 5vw;
+    .facebook{
+        margin-right: 2vw;
+       
+    }
+}
+//!why the fill does not work?
+
+.face-logo:hover{
+    fill:#FA5959;
+}
+.twitter-logo:hover{
+    fill:#FA5959;
+}
+
+@media screen and (max-width: 1171px) {
+    .links{
+        margin-right: 30vw;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .links{
+        margin-right: 20vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.footer{
+flex-direction: column;  
+align-items: center;
+  
+}
+.footer-link{
+    flex-direction: column;
+}
+
+.brand{
+    margin-left: 0vw;
+}
+.links{
+    margin-right: 0vw;
+}
+.footer-link{
+    
+    li{
+        margin-top: 2vh;
+    }
+}
+
+.icons{
+    margin-right: 0vw;
+    margin-bottom: 2vh;
+    .facebook{
+        margin-right: 2vw;
+    }
+}
+.navbar-brand{
+    margin-top: 2vh;
+}
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .footer{
+        width: 120%;
+    }
+
+    
+}

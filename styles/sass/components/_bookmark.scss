@@ -1,0 +1,81 @@
+
+
+.flex {
+    display: flex;
+  }
+  .bookmark {
+    align-content: center;
+  }
+  .feature-container {
+    margin: 0;
+  }
+  #text-container {
+    margin-top: 8vh;
+    width: 55vw;
+    margin-left: 10vw;
+    padding-right: 10vw;
+  }
+  .hero {
+    margin-top: 5vh;
+    width: 40vw;
+  }
+  
+  h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: grey;
+  }
+  .buttons-container {
+    margin-top: 3vh;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+  }
+  
+  #background-mark {
+    display: inline-block;
+    vertical-align: middle;
+    width: 73%;
+    height: 60%;
+    margin-left: 27%;
+    margin-top: 10vh;
+    border: 150px solid #5265e1;
+    border-top-left-radius: 180px;
+    border-bottom-left-radius: 180px;
+  }
+  @media screen and (max-width: 575px) {
+    #background-mark {
+      width: 95%;
+      margin-left: 30%;
+      margin-top: 8vh;
+      border: 130px solid #5265e1;
+    }
+    .hero{
+        width: 95vw;
+        margin-left:10vw;
+        margin-top: 12vh;
+    }
+    #text-container {
+        margin-left: 35vw;
+
+    }
+    #second-text-container {
+        
+        margin-top: 5vh;
+        margin-left: 30vw;
+    }
+    .justify-content-center{
+        margin-left: 15vw;
+    }
+
+    
+    #background-mark-reverse {
+      display: inline-block;
+      margin-top: 5vh;
+      border: 130px solid #5265e1;
+    }
+  }

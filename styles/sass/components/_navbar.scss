@@ -1,0 +1,42 @@
+.space-between {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+  }
+  
+  .login-button {
+    color: white;
+  }
+  
+  .login-botton:hover {
+    color: black;
+  }
+  .contact-link {
+    margin-right: 1vw;
+  }
+
+  .needs-validation{
+    color: #fa5959;
+  }
+
+  @media screen and (max-width: 325px) {
+    .space-between {
+      margin-left: 0vw;
+      margin-right: 0vw;
+      margin-top: 1vh;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    nav{
+      width: 110%;
+    }
+    .space-between {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-top: 1vh;
+      }
+
+  }
+
+ 

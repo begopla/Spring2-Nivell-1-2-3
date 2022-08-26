@@ -1,0 +1,85 @@
+
+
+
+
+$primary:#5265E1;
+$secondary: #FA5959;
+
+
+//import boostrap
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import 'components/navbar';
+@import 'components/bookmark';
+@import 'components/features';
+@import 'components/extensions';
+@import 'components/accordion';
+@import 'components/signup';
+@import 'components/footer';
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #5265E1;
+    --bs-btn-border-color: #5265E1;
+    --bs-btn-hover-color: #5265E1;
+    --bs-btn-hover-bg: #ffff;
+    --bs-btn-hover-border-color: #4251b4;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4251b4;
+    --bs-btn-active-border-color: #3e4ca9;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #5265E1;
+    --bs-btn-disabled-border-color: #5265E1;
+  }
+
+  .btn-light {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ffff;
+    --bs-btn-hover-border-color: #000;
+    --bs-btn-focus-shadow-rgb: 211, 212, 213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #c6c7c8;
+    --bs-btn-active-border-color: #babbbc;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #f8f9fa;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #FA5959;
+    --bs-btn-border-color: #FA5959;
+    --bs-btn-hover-color: #FA5959;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fb6a6a;
+    --bs-btn-focus-shadow-rgb: 213, 76, 76;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #fb7a7a;
+    --bs-btn-active-border-color: #fb6a6a;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #FA5959;
+    --bs-btn-disabled-border-color: #FA5959;
+}
+
+.nav-link.active:hover{
+    color: #FA5959;
+}
+
+.accordion-button:not(.collapsed) {
+    
+    background-color:white;
+}
+
+
+.accordion-button:focus {
+    
+    border-color:white;
+}
+
